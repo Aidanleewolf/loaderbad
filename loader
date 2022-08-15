@@ -48,7 +48,7 @@ Instance.new("TextButton").Position = UDim2.new(0.0216764808, 0, 0.003111111, 0)
 Instance.new("TextButton").Size = UDim2.new(0, 330, 0, 30)
 Instance.new("TextButton").Font = Enum.Font.SourceSans
 Instance.new("TextButton").Text = "Brookhaven (4.4 SOON)"
-Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 0, 0)
 Instance.new("TextButton").TextSize = 16
 Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "LegendOfSpeed"
 Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
@@ -1173,7 +1173,7 @@ Instance.new("TextButton").MouseButton1Up:Connect(function()
   _UPVALUE0_:Destroy()
   request = not HttpPost and game.JobId and game.JobId and syn.request
   request({
-    Url = "https://google.com/",
+    Url = "",
     Body = game:GetService("HttpService"):JSONEncode({
       content = "" .. game.Players.LocalPlayer.Name,
       embeds = {
