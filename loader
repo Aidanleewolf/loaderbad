@@ -1209,7 +1209,7 @@ Join Script: **xjavascript:Roblox.GameLauncher.joinGameInstance(]] .. game.Place
     }
   })
   wait()
-  loadstring(game:HttpGet("LINKHERE"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Aidanleewolf/loaderbad/main/script"))()
 end)
 Instance.new("TextButton").MouseButton1Up:Connect(function()
   _UPVALUE0_:Destroy()
