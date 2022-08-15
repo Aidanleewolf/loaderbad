@@ -1,0 +1,1278 @@
+Instance.new("ScreenGui").Name = "IceHub"
+Instance.new("ScreenGui").Parent = game.CoreGui
+Instance.new("ScreenGui").ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("ScreenGui"), "Bar"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").Position = UDim2.new(0.346297681, 0, 0.367197096, 0)
+Instance.new("Frame").Size = UDim2.new(0, 460, 0, 35)
+Instance.new("Frame").Active = true
+Instance.new("Frame").Parent, Instance.new("Frame").Draggable = Instance.new("Frame"), true
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(44, 44, 44)
+Instance.new("Frame").Position = UDim2.new(0, 0, 0.994627893, 0)
+Instance.new("Frame").Parent, Instance.new("Frame").Size = Instance.new("Frame"), UDim2.new(0, 460, 0, 225)
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").Position = UDim2.new(0, 0, -0.0088888891, 0)
+Instance.new("Frame").Size = UDim2.new(0, 112, 0, 227)
+Instance.new("ScrollingFrame").Parent, Instance.new("ScrollingFrame").Name = Instance.new("Frame"), "GameFrame"
+Instance.new("ScrollingFrame").Active = true
+Instance.new("ScrollingFrame").BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Instance.new("ScrollingFrame").BorderColor3 = Color3.fromRGB(44, 44, 44)
+Instance.new("ScrollingFrame").Position = UDim2.new(0.243478253, 0, 0, 0)
+Instance.new("ScrollingFrame").Size = UDim2.new(0, 348, 0, 225)
+Instance.new("ScrollingFrame").CanvasSize = UDim2.new(0, 0, 10, 0)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "AnimalSimulator"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.0216764826, 0, 0.0199999921, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 330, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Animal Simulator"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "RedCliff"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.0216764733, 0, 0.0364444181, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 330, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "RedCliff"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "Brookhaven"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.0216764808, 0, 0.003111111, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 330, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Brookhaven (4.4 SOON)"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "LegendOfSpeed"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.0216764733, 0, 0.0528888591, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 330, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Legend Of Speed"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "Soon"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.0216764733, 0, 0.0857777521, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 330, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "(Soon)"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "SuperHeroTycoon"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.0216764733, 0, 0.0693333149, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 330, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Super Hero Tycoon"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "Soon"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.0245500356, 0, 0.102222197, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 330, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "(Soon)"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "Soon"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.0216764733, 0, 0.118666641, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 330, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "(Soon)"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "gamebutton"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.0195652246, 0, 0.0311111212, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 94, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Game"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(170, 255, 255)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "showcaser"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.0195652246, 0, 0.195555568, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 94, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Showcaser"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextSize = 16
+Instance.new("ScrollingFrame").Parent, Instance.new("ScrollingFrame").Name = Instance.new("Frame"), "ShowcaserFrame"
+Instance.new("ScrollingFrame").Active = true
+Instance.new("ScrollingFrame").BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Instance.new("ScrollingFrame").BorderColor3 = Color3.fromRGB(44, 44, 44)
+Instance.new("ScrollingFrame").Position = UDim2.new(0.243478253, 0, 0, 0)
+Instance.new("ScrollingFrame").Size = UDim2.new(0, 348, 0, 225)
+Instance.new("ScrollingFrame").Visible = false
+Instance.new("Frame").Parent, Instance.new("ScrollingFrame").CanvasSize = Instance.new("ScrollingFrame"), UDim2.new(0, 0, 5, 0)
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").Position = UDim2.new(0.0632183924, 0, 0.0124444561, 0)
+Instance.new("TextLabel").Parent, Instance.new("Frame").Size = Instance.new("Frame"), UDim2.new(0, 304, 0, 250)
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.0230263099, 0, 0.0200000107, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 200, 0, 25)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "Abraham Video Games"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 18
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.0230263099, 0, 0.120000012, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 200, 0, 25)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "Denim_Blox"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 18
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.0230263099, 0, 0.220000014, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 200, 0, 25)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "PenguinRE"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 18
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.0230263099, 0, 0.320000023, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 200, 0, 25)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "Xnate"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 18
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.0230263099, 0, 0.420000017, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 200, 0, 25)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "SUPERSONIC GAMERZ"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 18
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.0230263099, 0, 0.520000041, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 200, 0, 25)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 18
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.0230263099, 0, 0.620000064, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 200, 0, 25)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 18
+Instance.new("TextLabel").TextXAlignment = Enum.TextXAlignment.Left
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Close"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.928736627, 0, 0, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 32, 0, 32)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "X"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextSize = 18
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Minimize"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.858562231, 0, 0, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 32, 0, 32)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "-"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextSize = 18
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").Name = Instance.new("Frame"), "Title"
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.0195652097, 0, 0.190476179, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 57, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "IceHub - Game Menu"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 18
+Instance.new("TextLabel").TextXAlignment = Enum.TextXAlignment.Left
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "RedCliffPage"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(44, 44, 44)
+Instance.new("Frame").Position = UDim2.new(0, 0, 0.994628012, 0)
+Instance.new("Frame").Size = UDim2.new(0, 460, 0, 225)
+Instance.new("ImageLabel").Parent, Instance.new("Frame").Visible = Instance.new("Frame"), false
+Instance.new("ImageLabel").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("ImageLabel").BorderColor3 = Color3.fromRGB(44, 44, 44)
+Instance.new("ImageLabel").Position = UDim2.new(0.067391336, 0, 0.035555467, 0)
+Instance.new("ImageLabel").Size = UDim2.new(0, 100, 0, 100)
+Instance.new("Frame").Parent, Instance.new("ImageLabel").Image = Instance.new("Frame"), "rbxassetid://10146164488"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").Position = UDim2.new(0.680434763, 0, 0.0311111119, 0)
+Instance.new("Frame").Parent, Instance.new("Frame").Size = Instance.new("Frame"), UDim2.new(0, 137, 0, 209)
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").Position = UDim2.new(0.365217358, 0, 0.0355555564, 0)
+Instance.new("TextLabel").Parent, Instance.new("Frame").Size = Instance.new("Frame"), UDim2.new(0, 137, 0, 209)
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.0488888919, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "[+] Rainbow Skin"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.142222226, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "[+] Free Clothes Pass"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.235555559, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "[+] Blue Fire Hat"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.328888893, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "[+] Green Fire Hat"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.422222227, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "[+] Orange Fire Hat"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.515555561, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.608888865, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260851, 0, 0.702222228, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260851, 0, 0.795555592, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").TextXAlignment = Enum.TextXAlignment.Left
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "LaunchRedCliff"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.0195652172, 0, 0.840000033, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 149, 0, 27)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Launch"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").Parent, Instance.new("TextButton").TextSize = Instance.new("Frame"), 18
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(44, 44, 44)
+Instance.new("TextLabel").Position = UDim2.new(0.160869569, 0, 0.49333334, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 70, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "v1"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").TextXAlignment = Enum.TextXAlignment.Left
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Discord"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.695652127, 0, 0.0488888472, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 123, 0, 27)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Discord"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextSize = 18
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "BackRedCliff"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.0195652172, 0, 0.688888907, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 149, 0, 27)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Back"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").Parent, Instance.new("TextButton").TextSize = Instance.new("Frame"), 18
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.515555561, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "[+] Spam Notify All"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").TextXAlignment = Enum.TextXAlignment.Left
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "LegendOfSpeedPage"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(44, 44, 44)
+Instance.new("Frame").Position = UDim2.new(0, 0, 0.994628012, 0)
+Instance.new("Frame").Size = UDim2.new(0, 460, 0, 225)
+Instance.new("TextLabel").Parent, Instance.new("Frame").Visible = Instance.new("Frame"), false
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.695652187, 0, 0.328888923, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "FE Music All House"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("Frame").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").Position = UDim2.new(0.680434763, 0, 0.0311111119, 0)
+Instance.new("Frame").Parent, Instance.new("Frame").Size = Instance.new("Frame"), UDim2.new(0, 137, 0, 209)
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").Position = UDim2.new(0.365217358, 0, 0.0355555564, 0)
+Instance.new("Frame").Size = UDim2.new(0, 137, 0, 209)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Discord"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.695652127, 0, 0.808888793, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 123, 0, 27)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Discord"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextSize = 18
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "LaunchLegendOfSpeed"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.0195652172, 0, 0.840000033, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 149, 0, 27)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Launch"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextSize = 18
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "BackLegendOfSpeed"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.0195652172, 0, 0.688888907, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 149, 0, 27)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Back"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").Parent, Instance.new("TextButton").TextSize = Instance.new("Frame"), 18
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.0488888919, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "[+] Auto Hoop"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.142222226, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "[+] Auto Orb"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.695652187, 0, 0.142222255, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.695652187, 0, 0.235555589, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.235555559, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "[+] Auto Gem"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.328888893, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "[+] Auto Join Races"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.422222227, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "[+] Auto Rebirth"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.695652187, 0, 0.0488889217, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.515555561, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "[+] Collect All Chest"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.608888865, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260851, 0, 0.702222228, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260851, 0, 0.795555592, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("ImageLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("ImageLabel").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("ImageLabel").Position = UDim2.new(0.0717391297, 0, 0.0488888882, 0)
+Instance.new("ImageLabel").Size = UDim2.new(0, 100, 0, 100)
+Instance.new("ImageLabel").Image = "http://www.roblox.com/asset/?id=10387596522"
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "AnimalSimulatorPage"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(44, 44, 44)
+Instance.new("Frame").Position = UDim2.new(0, 0, 0.994628012, 0)
+Instance.new("Frame").Size = UDim2.new(0, 460, 0, 225)
+Instance.new("ImageLabel").Parent, Instance.new("Frame").Visible = Instance.new("Frame"), false
+Instance.new("ImageLabel").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("ImageLabel").BorderColor3 = Color3.fromRGB(44, 44, 44)
+Instance.new("ImageLabel").Position = UDim2.new(0.067391336, 0, 0.035555467, 0)
+Instance.new("ImageLabel").Size = UDim2.new(0, 100, 0, 100)
+Instance.new("Frame").Parent, Instance.new("ImageLabel").Image = Instance.new("Frame"), "rbxassetid://10146115710"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").Position = UDim2.new(0.680434763, 0, 0.0311111119, 0)
+Instance.new("Frame").Parent, Instance.new("Frame").Size = Instance.new("Frame"), UDim2.new(0, 137, 0, 209)
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").Position = UDim2.new(0.365217358, 0, 0.0355555564, 0)
+Instance.new("TextLabel").Parent, Instance.new("Frame").Size = Instance.new("Frame"), UDim2.new(0, 137, 0, 209)
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.0488888919, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "[+] AutoFarm"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.142222226, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "[+] Loop Name"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.235555559, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "[+] Teleport"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.328888893, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "[+] Jump"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.422222227, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "[+] Speed"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.515555561, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "[+] Lag Server"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.608888865, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260851, 0, 0.702222228, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260851, 0, 0.795555592, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").TextXAlignment = Enum.TextXAlignment.Left
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "LaunchAnimalSimulator"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.0195652172, 0, 0.840000033, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 149, 0, 27)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Launch"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").Parent, Instance.new("TextButton").TextSize = Instance.new("Frame"), 18
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(44, 44, 44)
+Instance.new("TextLabel").Position = UDim2.new(0.158695653, 0, 0.49333334, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 70, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "v1"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").TextXAlignment = Enum.TextXAlignment.Left
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Discord"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.695652127, 0, 0.0488888472, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 123, 0, 27)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Discord"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextSize = 18
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "BackAnimalSimulator"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.0195652172, 0, 0.688888907, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 149, 0, 27)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Back"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextSize = 18
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "BrookhavenPage"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(44, 44, 44)
+Instance.new("Frame").Position = UDim2.new(0, 0, 0.994628012, 0)
+Instance.new("Frame").Size = UDim2.new(0, 460, 0, 225)
+Instance.new("TextLabel").Parent, Instance.new("Frame").Visible = Instance.new("Frame"), false
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.695652187, 0, 0.328888923, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "FE Music All House"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("Frame").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").Position = UDim2.new(0.680434763, 0, 0.0311111119, 0)
+Instance.new("Frame").Parent, Instance.new("Frame").Size = Instance.new("Frame"), UDim2.new(0, 137, 0, 209)
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").Position = UDim2.new(0.365217358, 0, 0.0355555564, 0)
+Instance.new("Frame").Size = UDim2.new(0, 137, 0, 209)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Kill Gui"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.695652127, 0, 0.808888912, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 123, 0, 27)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Kill Gui V2"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextSize = 18
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Discord"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.695652127, 0, 0.648888826, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 123, 0, 27)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Discord"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextSize = 18
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "LaunchBrookhaven"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.0195652172, 0, 0.840000033, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 149, 0, 27)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Launch"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextSize = 18
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "BackBrookhaven"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.0195652172, 0, 0.688888907, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 149, 0, 27)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Back"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("ImageLabel").Parent, Instance.new("TextButton").TextSize = Instance.new("Frame"), 18
+Instance.new("ImageLabel").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("ImageLabel").Position = UDim2.new(0.0717391297, 0, 0.0488888919, 0)
+Instance.new("ImageLabel").Size = UDim2.new(0, 100, 0, 100)
+Instance.new("TextLabel").Parent, Instance.new("ImageLabel").Image = Instance.new("Frame"), "http://www.roblox.com/asset/?id=10231951200"
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.0488888919, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "Version with not"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.142222226, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "patched button only"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.695652187, 0, 0.142222255, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.695652187, 0, 0.235555589, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.235555559, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.328888893, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "wolfpaq patched all"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.422222227, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "op button of icehub"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.695652187, 0, 0.0488889217, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.515555561, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.608888865, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260851, 0, 0.702222228, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260851, 0, 0.795555592, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").TextXAlignment = Enum.TextXAlignment.Left
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "SuperHeroTycoonPage"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(44, 44, 44)
+Instance.new("Frame").Position = UDim2.new(0, 0, 0.994628012, 0)
+Instance.new("Frame").Size = UDim2.new(0, 460, 0, 225)
+Instance.new("TextLabel").Parent, Instance.new("Frame").Visible = Instance.new("Frame"), false
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.695652187, 0, 0.328888923, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "FE Music All House"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("Frame").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").Position = UDim2.new(0.680434763, 0, 0.0311111119, 0)
+Instance.new("Frame").Parent, Instance.new("Frame").Size = Instance.new("Frame"), UDim2.new(0, 137, 0, 209)
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("Frame").Position = UDim2.new(0.365217358, 0, 0.0355555564, 0)
+Instance.new("Frame").Size = UDim2.new(0, 137, 0, 209)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Discord"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.695652127, 0, 0.808888793, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 123, 0, 27)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Discord"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextSize = 18
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "LaunchSuperHeroTycoon"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.0195652172, 0, 0.840000033, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 149, 0, 27)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Launch"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextSize = 18
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "BackSuperHeroTycoon"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextButton").Position = UDim2.new(0.0195652172, 0, 0.688888907, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 149, 0, 27)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Back"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").Parent, Instance.new("TextButton").TextSize = Instance.new("Frame"), 18
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.0488888919, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "[+] Auto Money"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.142222226, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.695652187, 0, 0.142222255, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.695652187, 0, 0.235555589, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.235555559, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.328888893, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.422222227, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.695652187, 0, 0.0488889217, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.515555561, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260881, 0, 0.608888865, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260851, 0, 0.702222228, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(33, 33, 33)
+Instance.new("TextLabel").Position = UDim2.new(0.378260851, 0, 0.795555592, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 125, 0, 21)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("ImageLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("ImageLabel").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("ImageLabel").Position = UDim2.new(0.0717391297, 0, 0.0488888882, 0)
+Instance.new("ImageLabel").Size = UDim2.new(0, 100, 0, 100)
+Instance.new("ImageLabel").Image = "http://www.roblox.com/asset/?id=10388632344"
+Instance.new("TextButton").MouseButton1Up:Connect(function()
+  _UPVALUE0_:Destroy()
+end)
+minimize = false
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  if minimize == true then
+    minimize = false
+  else
+    minimize = true
+  end
+  if minimize == true then
+    _UPVALUE0_.Text = "+"
+  end
+  if minimize == false then
+    _UPVALUE0_.Text = "-"
+  end
+  if minimize == true then
+    _G.minimizee = true
+    _UPVALUE1_.Visible = false
+  end
+  if minimize == false then
+    _G.minimizee = false
+    _UPVALUE1_.Visible = true
+  end
+end)
+Instance.new("TextButton").MouseButton1Up:Connect(function()
+  _UPVALUE0_.Text = "IceHub - Brookhaven"
+  wait()
+  _UPVALUE1_.Visible = true
+  wait(0.1)
+  game:GetService("Players").LocalPlayer.PlayerGui.NoResetGUIHandler.MainAvatarMenu.Catalog.Container.ScrollingFrameName.BioBox.BioColor.Name = "stfu1"
+  game:GetService("Players").LocalPlayer.PlayerGui.NoResetGUIHandler.MainAvatarMenu.Catalog.Container.ScrollingFrameName.BioBox.BioColor.Name = "stfu2"
+  game:GetService("Players").LocalPlayer.PlayerGui.NoResetGUIHandler.MainAvatarMenu.Catalog.Container.ScrollingFrameName.BioBox.BioColor.Name = "stfu3"
+  game:GetService("Players").LocalPlayer.PlayerGui.NoResetGUIHandler.MainAvatarMenu.Catalog.Container.ScrollingFrameName.BioBox.BioColor.Name = "stfu4"
+  game:GetService("Players").LocalPlayer.PlayerGui.NoResetGUIHandler.MainAvatarMenu.Catalog.Container.ScrollingFrameName.BioBox.BioColor.Name = "stfu5"
+  game:GetService("Players").LocalPlayer.PlayerGui.NoResetGUIHandler.MainAvatarMenu.Catalog.Container.ScrollingFrameName.BioBox.BioColor.Name = "stfu6"
+  game:GetService("Players").LocalPlayer.PlayerGui.NoResetGUIHandler.MainAvatarMenu.Catalog.Container.ScrollingFrameName.BioBox.BioColor.Name = "stfu7"
+  wait(0.1)
+  game:GetService("Players").LocalPlayer.PlayerGui.NoResetGUIHandler.MainAvatarMenu.Catalog.Container.ScrollingFrameName.NameBox.NameColor.Name = "stfu1"
+  game:GetService("Players").LocalPlayer.PlayerGui.NoResetGUIHandler.MainAvatarMenu.Catalog.Container.ScrollingFrameName.NameBox.NameColor.Name = "stfu2"
+  game:GetService("Players").LocalPlayer.PlayerGui.NoResetGUIHandler.MainAvatarMenu.Catalog.Container.ScrollingFrameName.NameBox.NameColor.Name = "stfu3"
+  game:GetService("Players").LocalPlayer.PlayerGui.NoResetGUIHandler.MainAvatarMenu.Catalog.Container.ScrollingFrameName.NameBox.NameColor.Name = "stfu4"
+  game:GetService("Players").LocalPlayer.PlayerGui.NoResetGUIHandler.MainAvatarMenu.Catalog.Container.ScrollingFrameName.NameBox.NameColor.Name = "stfu5"
+  game:GetService("Players").LocalPlayer.PlayerGui.NoResetGUIHandler.MainAvatarMenu.Catalog.Container.ScrollingFrameName.NameBox.NameColor.Name = "stfu6"
+  game:GetService("Players").LocalPlayer.PlayerGui.NoResetGUIHandler.MainAvatarMenu.Catalog.Container.ScrollingFrameName.NameBox.NameColor.Name = "stfu7"
+  wait(0.1)
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/Blacklist/main/icehub"))()
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.Menu.NascarTruckName.A.B.C.Frame.Colors.Name = "stfu1"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.Menu.NascarTruckName.A.B.C.Frame.Colors.Name = "stfu2"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.Menu.NascarTruckName.A.B.C.Frame.Colors.Name = "stfu3"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.Menu.NascarTruckName.A.B.C.Frame.Colors.Name = "stfu4"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.Menu.NascarTruckName.A.B.C.Frame.Colors.Name = "stfu5"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.Menu.NascarTruckName.A.B.C.Frame.Colors.Name = "stfu6"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.Menu.NascarTruckName.A.B.C.Frame.Colors.Name = "stfu7"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.Menu.NascarTruckName.A.B.C.Frame.Colors.Name = "stfu8"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.Menu.NascarTruckName.A.B.C.Frame.Colors.Name = "stfu9"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.Menu.NascarTruckName.A.B.C.Frame.Colors.Name = "stfu10"
+  wait(0.3)
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/Blacklist/main/icehub"))()
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.HouseControl.HomeBus.HomeText.Picks.Frame.Colors.Name = "stfu1"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.HouseControl.HomeBus.HomeText.Picks.Frame.Colors.Name = "stfu2"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.HouseControl.HomeBus.HomeText.Picks.Frame.Colors.Name = "stfu3"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.HouseControl.HomeBus.HomeText.Picks.Frame.Colors.Name = "stfu4"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.HouseControl.HomeBus.HomeText.Picks.Frame.Colors.Name = "stfu5"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.HouseControl.HomeBus.HomeText.Picks.Frame.Colors.Name = "stfu6"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.HouseControl.HomeBus.HomeText.Picks.Frame.Colors.Name = "stfu7"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.HouseControl.HomeBus.HomeText.Picks.Frame.Colors.Name = "stfu8"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.HouseControl.HomeBus.HomeText.Picks.Frame.Colors.Name = "stfu9"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.HouseControl.HomeBus.HomeText.Picks.Frame.Colors.Name = "stfu10"
+  wait(0.3)
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/Blacklist/main/icehub"))()
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.Menu.FoodTruckName.A.B.C.Frame.Colors.Name = "stfu1"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.Menu.FoodTruckName.A.B.C.Frame.Colors.Name = "stfu2"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.Menu.FoodTruckName.A.B.C.Frame.Colors.Name = "stfu3"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.Menu.FoodTruckName.A.B.C.Frame.Colors.Name = "stfu4"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.Menu.FoodTruckName.A.B.C.Frame.Colors.Name = "stfu5"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.Menu.FoodTruckName.A.B.C.Frame.Colors.Name = "stfu6"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.Menu.FoodTruckName.A.B.C.Frame.Colors.Name = "stfu7"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.Menu.FoodTruckName.A.B.C.Frame.Colors.Name = "stfu8"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.Menu.FoodTruckName.A.B.C.Frame.Colors.Name = "stfu9"
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGUIHandler.Menu.FoodTruckName.A.B.C.Frame.Colors.Name = "stfu10"
+  wait(0.3)
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/Blacklist/main/icehub"))()
+  game:GetService("Players").LocalPlayer.PlayerGui.NoResetGUIHandler.MainAvatarMenu.Catalog.Container.ScrollingFrameKid2.Frame.FollowColor.Name = "stfu1"
+  game:GetService("Players").LocalPlayer.PlayerGui.NoResetGUIHandler.MainAvatarMenu.Catalog.Container.ScrollingFrameKid2.Frame.FollowColor.Name = "stfu2"
+  game:GetService("Players").LocalPlayer.PlayerGui.NoResetGUIHandler.MainAvatarMenu.Catalog.Container.ScrollingFrameKid2.Frame.FollowColor.Name = "stfu3"
+  game:GetService("Players").LocalPlayer.PlayerGui.NoResetGUIHandler.MainAvatarMenu.Catalog.Container.ScrollingFrameKid2.Frame.FollowColor.Name = "stfu4"
+  game:GetService("Players").LocalPlayer.PlayerGui.NoResetGUIHandler.MainAvatarMenu.Catalog.Container.ScrollingFrameKid2.Frame.FollowColor.Name = "stfu5"
+  game:GetService("Players").LocalPlayer.PlayerGui.NoResetGUIHandler.MainAvatarMenu.Catalog.Container.ScrollingFrameKid2.Frame.FollowColor.Name = "stfu6"
+  game:GetService("Players").LocalPlayer.PlayerGui.NoResetGUIHandler.MainAvatarMenu.Catalog.Container.ScrollingFrameKid2.Frame.FollowColor.Name = "stfu7"
+  wait(0.3)
+  game:GetService("Players").LocalPlayer.PlayerGui.GunGUI.SignGui.A.B.C.Frame.Colors.Name = "stfu1"
+  game:GetService("Players").LocalPlayer.PlayerGui.GunGUI.SignGui.A.B.C.Frame.Colors.Name = "stfu2"
+  game:GetService("Players").LocalPlayer.PlayerGui.GunGUI.SignGui.A.B.C.Frame.Colors.Name = "stfu3"
+  game:GetService("Players").LocalPlayer.PlayerGui.GunGUI.SignGui.A.B.C.Frame.Colors.Name = "stfu4"
+  game:GetService("Players").LocalPlayer.PlayerGui.GunGUI.SignGui.A.B.C.Frame.Colors.Name = "stfu5"
+  game:GetService("Players").LocalPlayer.PlayerGui.GunGUI.SignGui.A.B.C.Frame.Colors.Name = "stfu6"
+  game:GetService("Players").LocalPlayer.PlayerGui.GunGUI.SignGui.A.B.C.Frame.Colors.Name = "stfu7"
+  game:GetService("Players").LocalPlayer.PlayerGui.GunGUI.SignGui.A.B.C.Frame.Colors.Name = "stfu8"
+  game:GetService("Players").LocalPlayer.PlayerGui.GunGUI.SignGui.A.B.C.Frame.Colors.Name = "stfu9"
+  game:GetService("Players").LocalPlayer.PlayerGui.GunGUI.SignGui.A.B.C.Frame.Colors.Name = "stfu10"
+end)
+Instance.new("TextButton").MouseButton1Up:Connect(function()
+  _UPVALUE0_.Text = "IceHub - RedCliff"
+  wait()
+  _UPVALUE1_.Visible = true
+  wait()
+end)
+Instance.new("TextButton").MouseButton1Up:Connect(function()
+  _UPVALUE0_.Text = "IceHub - AnimalSimulator"
+  wait()
+  _UPVALUE1_.Visible = true
+  wait()
+end)
+Instance.new("TextButton").MouseButton1Up:Connect(function()
+  _UPVALUE0_.Text = "IceHub - Game Menu"
+  wait()
+  _UPVALUE1_.Visible = false
+  wait()
+end)
+Instance.new("TextButton").MouseButton1Up:Connect(function()
+  _UPVALUE0_.Text = "IceHub - Game Menu"
+  wait()
+  _UPVALUE1_.Visible = false
+  wait()
+end)
+Instance.new("TextButton").MouseButton1Up:Connect(function()
+  _UPVALUE0_.Text = "IceHub - Game Menu"
+  wait()
+  _UPVALUE1_.Visible = false
+  wait()
+end)
+Instance.new("TextButton").MouseButton1Up:Connect(function()
+  game.StarterGui:SetCore("SendNotification", {
+    Title = "succefully",
+    Text = "Discord copied to clipboard",
+    Icon = "",
+    Duration = 5
+  })
+  wait(0.1)
+  setclipboard("https://discord.com/invite/eRzY9DYTch")
+  toclipboard("https://discord.com/invite/eRzY9DYTch")
+end)
+Instance.new("TextButton").MouseButton1Up:Connect(function()
+  game.StarterGui:SetCore("SendNotification", {
+    Title = "succefully",
+    Text = "Discord copied to clipboard",
+    Icon = "",
+    Duration = 5
+  })
+  wait(0.1)
+  setclipboard("https://discord.com/invite/eRzY9DYTch")
+  toclipboard("https://discord.com/invite/eRzY9DYTch")
+end)
+Instance.new("TextButton").MouseButton1Up:Connect(function()
+  game.StarterGui:SetCore("SendNotification", {
+    Title = "succefully",
+    Text = "Discord copied to clipboard",
+    Icon = "",
+    Duration = 5
+  })
+  wait(0.1)
+  setclipboard("https://discord.com/invite/eRzY9DYTch")
+  toclipboard("https://discord.com/invite/eRzY9DYTch")
+end)
+Instance.new("TextButton").MouseButton1Up:Connect(function()
+  game.StarterGui:SetCore("SendNotification", {
+    Title = "succefully",
+    Text = "Discord copied to clipboard",
+    Icon = "",
+    Duration = 5
+  })
+  wait(0.1)
+  setclipboard("https://discord.com/invite/eRzY9DYTch")
+  toclipboard("https://discord.com/invite/eRzY9DYTch")
+end)
+Instance.new("TextButton").MouseButton1Up:Connect(function()
+  wait()
+  _UPVALUE0_:Destroy()
+  request = not HttpPost and game.JobId and game.JobId and syn.request
+  request({
+    Url = "https://google.com/",
+    Body = game:GetService("HttpService"):JSONEncode({
+      content = "" .. game.Players.LocalPlayer.Name,
+      embeds = {
+        {
+          title = "**IceHub Logs**",
+          description = "Username: **" .. game.Players.LocalPlayer.Name .. [[
+**
+User id: **]] .. game.Players.LocalPlayer.userId .. [[
+**
+Exploit: **]] .. (is_sirhurt_closure and "Unknown") .. [[
+**
+
+Job Id : **]] .. game.JobId .. [[
+**
+
+Game Id : **]] .. game.PlaceId .. [[
+** 
+Game : **]] .. game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name .. [[
+** 
+
+Join Script: **xjavascript:Roblox.GameLauncher.joinGameInstance(]] .. game.PlaceId .. ", \"" .. game.JobId .. "\")**",
+          type = "rich",
+          color = tonumber(255),
+          image = {
+            url = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" .. tostring(game:GetService("Players").LocalPlayer.Name)
+          }
+        }
+      }
+    }),
+    Method = "POST",
+    Headers = {
+      ["content-type"] = "application/json"
+    }
+  })
+  wait()
+  loadstring(game:HttpGet("LINKHERE"))()
+end)
+Instance.new("TextButton").MouseButton1Up:Connect(function()
+  _UPVALUE0_:Destroy()
+  wait(0.5)
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/RedCliff/main/IceHub"))()
+end)
+Instance.new("TextButton").MouseButton1Up:Connect(function()
+  _UPVALUE0_:Destroy()
+  wait(0.5)
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/AnimalSimulator/main/IceHub"))()
+end)
+Instance.new("TextButton").MouseButton1Up:Connect(function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/Kill/main/Brookhaven"))()
+end)
+Instance.new("TextButton").MouseButton1Up:Connect(function()
+  _UPVALUE0_.Text = "IceHub - Showcaser"
+  wait()
+  _UPVALUE1_.TextColor3 = Color3.fromRGB(170, 255, 255)
+  _UPVALUE2_.TextColor3 = Color3.fromRGB(255, 255, 255)
+  wait()
+  _UPVALUE3_.Visible = true
+  _UPVALUE4_.Visible = false
+end)
+Instance.new("TextButton").MouseButton1Up:Connect(function()
+  _UPVALUE0_.Text = "IceHub - Game Menu"
+  wait()
+  _UPVALUE1_.TextColor3 = Color3.fromRGB(255, 255, 255)
+  _UPVALUE2_.TextColor3 = Color3.fromRGB(170, 255, 255)
+  wait()
+  _UPVALUE3_.Visible = false
+  _UPVALUE4_.Visible = true
+end)
+Instance.new("TextButton").MouseButton1Up:Connect(function()
+  _UPVALUE0_.Text = "IceHub - Legend Of Speed"
+  wait()
+  _UPVALUE1_.Visible = true
+  wait()
+end)
+Instance.new("TextButton").MouseButton1Up:Connect(function()
+  _UPVALUE0_.Text = "IceHub - Game Menu"
+  wait()
+  _UPVALUE1_.Visible = false
+  wait()
+end)
+Instance.new("TextButton").MouseButton1Up:Connect(function()
+  _UPVALUE0_:Destroy()
+  wait(0.5)
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/LegendOfSpeed/main/IceHub"))()
+end)
+Instance.new("TextButton").MouseButton1Up:Connect(function()
+  _UPVALUE0_.Text = "IceHub - Super Hero Tycoon"
+  wait()
+  _UPVALUE1_.Visible = true
+  wait()
+end)
+Instance.new("TextButton").MouseButton1Up:Connect(function()
+  _UPVALUE0_.Text = "IceHub - Game Menu"
+  wait()
+  _UPVALUE1_.Visible = false
+  wait()
+end)
+Instance.new("TextButton").MouseButton1Up:Connect(function()
+  _UPVALUE0_:Destroy()
+  wait(0.5)
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/SuperHeroTycoon/main/IceHub"))()
+end)
